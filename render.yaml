@@ -1,11 +1,10 @@
 services:
   - type: web
-    name: ussd-school-portal
-    runtime: php
-    region: ohio
+    name: aussd-school-portal
+    runtime: image
+    repo: https://github.com/hkipfrosting/aussd-school-portal
     plan: free
-    buildCommand: 'echo "No build needed"'
-    startCommand: 'php -S 0.0.0.0:$PORT -t .'
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: PORT
         value: 10000
