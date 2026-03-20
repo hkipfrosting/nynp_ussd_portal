@@ -1,0 +1,8 @@
+{
+    "name": "aussd/school-portal",
+    "description": "USSD-based school portal for student services",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    }
+}

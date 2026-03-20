@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ussd-school-portal
+    runtime: php
+    buildCommand: 'echo "No build required"'
+    startCommand: 'php -S 0.0.0.0:$PORT -t .'
+    envVars:
+      - key: PORT
+        value: 10000
+    plan: free
