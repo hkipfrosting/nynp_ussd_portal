@@ -1,5 +1,5 @@
 {
-    "name": "aussd/school-portal",
+    "name": "ussd-school-portal",
     "description": "USSD-based school portal for student services",
     "type": "project",
     "require": {
