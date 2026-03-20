@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>School USSD Portal</title>
+    <title> ussd based school Portal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
